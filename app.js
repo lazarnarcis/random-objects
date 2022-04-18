@@ -1,6 +1,6 @@
 let body = document.body;
 let all = document.querySelector("#all");
-let time = 50;
+let time = 1;
 let principal = document.querySelector("#principal");
 
 function generateRandomColor() {
@@ -33,8 +33,10 @@ function generateRandomDiv () {
 }
 
 function moveElement (div) {
-    let randomNumberForTop = generateRandomNumber(1, 750);
-    let randomNumberForLeft = generateRandomNumber(1, 1500);
+    let windowWidth = window.innerWidth;
+    let windowHeight = window.innerHeight;
+    let randomNumberForTop = generateRandomNumber(1, windowHeight - 75);
+    let randomNumberForLeft = generateRandomNumber(1, windowWidth - 75);
 
     setTimeout(function () {
         div.style.marginTop = randomNumberForTop + "px";
