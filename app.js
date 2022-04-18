@@ -1,6 +1,6 @@
 let body = document.body;
 let all = document.querySelector("#all");
-let time = 1;
+let time = 50;
 let principal = document.querySelector("#principal");
 
 function generateRandomColor() {
