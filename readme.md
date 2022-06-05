@@ -4,7 +4,7 @@ This application generates random objects.
 
 ## Programming Languages
 
-The programming languages used for this project are: <b>html</b> and <b>javascript</b>.
+The programming languages used for this project are: <b>html</b>, <b>css</b> and <b>javascript</b>.
 
 Link to app: https://lazarnarcis.github.io/random-objects/
 
